@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Figtree', sans-serif;
+}
+
+nav {
+    display: flex;
+    height: 100px;
+    box-shadow: 0px 5px 11px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav div {
+    display: flex;
+    height: 70px;
+
+}
+
+.logo img {
+    margin-top: -10px;
+    margin-left: -40px;
+    overflow: hidden;
+}
+
+.logo h3 {
+    margin-top: -30px;
+
+    font-weight: lighter;
+}
+
+.logo h1 {
+    margin-top: 10px;
+    font-weight: bolder;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.logo h3,
+h1 {
+
+    margin-left: -50px;
+}
+
+#details {
+    transition: 0.3s ease;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: -60%;
+    height: 600px;
+    width: 0px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 7px 4px 11px 0px rgba(0,0,0,0.1);
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+#details h1 {
+    line-height: 80px;
+    color: rgb(54, 51, 51);
+    margin-left: 20px;
+}
+#details select{
+    width: 50px;
+    margin-left: 20px;
+    
+}
+
+#details h3 {
+    font-size: 3rem;
+    margin-left: 130px;
+}
+
+#icon {
+    padding: 30px;
+    margin-left: 70px;
+}
+
+.space {
+
+    height: 70px;
+   
+}
+
+.coin {
+    margin-top: -70px;
+    height: 40px;
+    line-height: 20px;
+    padding: 70px;
+    
+}
+
+.line {
+    height: 3px;
+    margin-left: -50px;
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 70px;
+   background-color: rgb(0, 204, 255);
+}
+
+.info {
+    font-family: 'Figtree', sans-serif;
+    margin-top: -10px;
+    padding: 30px;
+   font-weight: 300;
+    margin-left: -150px;
+    line-height: 30px;
+    font-size: 1rem;
+    color: rgba(20, 20, 20, 0.726);
+}
+
+.abri {
+    font-family: 'Figtree', sans-serif;
+    word-spacing: -20px;
+    color: rgb(0, 204, 255);
+}
+
+.block {
+    font-family: 'Figtree', sans-serif;
+
+}
+
+.button button {
+    height: 30px;
+    width: 200px;
+    margin-top: -20px;
+    box-shadow: 0px 4px 26px 11px rgba(32, 187, 192, 0.418);
+    margin-left: 20px;
+    padding: 25px;
+    background: rgb(0, 180, 242);
+    background: radial-gradient(circle, rgba(0, 180, 242, 1) 0%, rgba(8, 249, 161, 1) 55%, rgba(0, 215, 255, 1) 100%);
+    border-radius: 25px;
+    border: none;
+}
+.button h1{
+    font-family: 'Figtree', sans-serif;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    margin-top: -10px;
+    margin-left: 5px;
+    color: white;
+}
+.install{
+    display: flex;
+    padding: 20px;
+}
+.install h1{
+    color: rgb(102, 98, 98);
+    font-family: 'Figtree', sans-serif;
+    font-size: 1rem;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-weight: bolder;
+}
+#time{
+    display: flex;
+}
+.value{
+    font-family: 'Figtree', sans-serif;
+   margin: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    height: 450px;
+}
+.time h1{
+   margin-left: 60px;
+   padding: 30px;
+   font-size: 1.5rem;
+}
+.days{
+    padding: 10px;
+    margin-left: 15px;
+}
+.days h1{
+    margin-left: 15px;
+}
+.range{
+   
+   word-spacing: 50px;
+}
+.rangelimit{
+   
+    width: 310px;
+    margin-left: 25px;
+    background-color: rgba(128, 128, 128, 0.555);
+    height: 15px;
+    border-radius: 20px;
+}
+.rangevalue{
+    
+    width: 100px;
+    margin-top: -15px;
+    margin-left: 25px;
+    background-color: rgb(25, 179, 199);
+    height: 15px;
+    box-shadow: 0px 4px 26px 11px rgba(18, 214, 214, 0.151);
+    border-radius: 20px 0px 0px 20px;
+}
+.cap{
+    display: flex;
+    padding: 10px;
+    font-weight: lighter;
+}
+.softcap{
+margin-left: 15px;
+}
+.hardcap{
+margin-left: 200px;
+}
+#line{
+    height: 1px;
+    background-color: rgba(71, 67, 67, 0.829);
+}
+.price{
+    display: flex;
+    margin-left: -190px;
+    margin-top: 30px;
+}
+pre{
+    font-size: 15px;
+}
+.value button{
+    margin-left: 15px;
+    margin-top: -3px;
+}
